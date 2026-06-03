@@ -1,0 +1,23 @@
+{
+  "name": "@one-proxy/ui",
+  "root": "packages/ui",
+  "sourceRoot": "packages/ui/src",
+  "targets": {
+    "dev": {
+      "executor": "nx:run-commands",
+      "options": { "command": "vite", "cwd": "packages/ui" }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": { "command": "tsc -b && vite build", "cwd": "packages/ui" }
+    },
+    "typecheck": {
+      "executor": "nx:run-commands",
+      "options": { "command": "tsc --noEmit", "cwd": "packages/ui" }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": { "command": "echo 'no tests'", "cwd": "packages/ui" }
+    }
+  }
+}

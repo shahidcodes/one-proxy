@@ -1,0 +1,463 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.8.4",
+  "pathMappings": {
+    "@one-proxy/shared": [
+      "./packages/shared/src/index.ts"
+    ],
+    "@one-proxy/shared/*": [
+      "./packages/shared/src/*"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "PRD.md",
+        "hash": "2154064543206374327"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "6079129010714815296"
+      },
+      {
+        "file": "opencode.json",
+        "hash": "7176435469370803624"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "7890156169718520698"
+      },
+      {
+        "file": ".dockerignore",
+        "hash": "8968061936223641590"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "916004296923197967"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "7556950792831876905"
+      },
+      {
+        "file": "nx.json",
+        "hash": "16673877449444905213"
+      },
+      {
+        "file": "Dockerfile",
+        "hash": "1409861127675546194"
+      },
+      {
+        "file": "package.json",
+        "hash": "10925102876629056087"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "12974404476618852293"
+      }
+    ],
+    "projectFileMap": {
+      "@one-proxy/ui": [
+        {
+          "file": "packages/ui/index.html",
+          "hash": "10284711665665170713"
+        },
+        {
+          "file": "packages/ui/package.json",
+          "hash": "14523866848177827621",
+          "deps": [
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@vitejs/plugin-react",
+            "npm:autoprefixer",
+            "npm:postcss",
+            "npm:tailwindcss",
+            "npm:typescript",
+            "npm:vite@6.4.3",
+            "@one-proxy/shared",
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-router-dom",
+            "npm:@radix-ui/react-dialog",
+            "npm:@radix-ui/react-dropdown-menu",
+            "npm:@radix-ui/react-label",
+            "npm:@radix-ui/react-select",
+            "npm:@radix-ui/react-separator",
+            "npm:@radix-ui/react-slot@1.2.4",
+            "npm:@radix-ui/react-switch",
+            "npm:@radix-ui/react-tabs",
+            "npm:@radix-ui/react-toast",
+            "npm:@radix-ui/react-tooltip",
+            "npm:class-variance-authority",
+            "npm:clsx",
+            "npm:lucide-react",
+            "npm:tailwind-merge",
+            "npm:tailwindcss-animate"
+          ]
+        },
+        {
+          "file": "packages/ui/postcss.config.js",
+          "hash": "1886002347757770194"
+        },
+        {
+          "file": "packages/ui/project.json",
+          "hash": "12949845807257163687"
+        },
+        {
+          "file": "packages/ui/src/App.tsx",
+          "hash": "2156973109243361858"
+        },
+        {
+          "file": "packages/ui/src/components/layout/Layout.tsx",
+          "hash": "4397739135215996738"
+        },
+        {
+          "file": "packages/ui/src/components/layout/Sidebar.tsx",
+          "hash": "1237503058116588838"
+        },
+        {
+          "file": "packages/ui/src/components/ui/badge.tsx",
+          "hash": "2333882569728186768"
+        },
+        {
+          "file": "packages/ui/src/components/ui/button.tsx",
+          "hash": "4695406925962959931"
+        },
+        {
+          "file": "packages/ui/src/components/ui/card.tsx",
+          "hash": "7149212796473713164"
+        },
+        {
+          "file": "packages/ui/src/components/ui/dialog.tsx",
+          "hash": "7069279494279720858"
+        },
+        {
+          "file": "packages/ui/src/components/ui/input.tsx",
+          "hash": "1253860385418342270"
+        },
+        {
+          "file": "packages/ui/src/components/ui/label.tsx",
+          "hash": "3901272173101996956"
+        },
+        {
+          "file": "packages/ui/src/components/ui/select.tsx",
+          "hash": "7568104764152890473"
+        },
+        {
+          "file": "packages/ui/src/components/ui/separator.tsx",
+          "hash": "8426352638769245547"
+        },
+        {
+          "file": "packages/ui/src/components/ui/switch.tsx",
+          "hash": "6779809757274515545"
+        },
+        {
+          "file": "packages/ui/src/components/ui/table.tsx",
+          "hash": "18326185968509847973"
+        },
+        {
+          "file": "packages/ui/src/components/ui/tabs.tsx",
+          "hash": "860388293005818638"
+        },
+        {
+          "file": "packages/ui/src/components/ui/toast.tsx",
+          "hash": "13738525199109111175"
+        },
+        {
+          "file": "packages/ui/src/components/ui/toaster.tsx",
+          "hash": "11024458661179901587"
+        },
+        {
+          "file": "packages/ui/src/components/ui/tooltip.tsx",
+          "hash": "12390659869477006199"
+        },
+        {
+          "file": "packages/ui/src/components/ui/use-toast.ts",
+          "hash": "14149496545003491995"
+        },
+        {
+          "file": "packages/ui/src/index.css",
+          "hash": "11816802211844313834"
+        },
+        {
+          "file": "packages/ui/src/lib/api.ts",
+          "hash": "8263399607611374166"
+        },
+        {
+          "file": "packages/ui/src/lib/utils.ts",
+          "hash": "1260146919662595987"
+        },
+        {
+          "file": "packages/ui/src/main.tsx",
+          "hash": "7583094939898899397"
+        },
+        {
+          "file": "packages/ui/src/pages/Connection.tsx",
+          "hash": "10317380947991243318"
+        },
+        {
+          "file": "packages/ui/src/pages/Dashboard.tsx",
+          "hash": "4980423521253267628"
+        },
+        {
+          "file": "packages/ui/src/pages/KeyPools.tsx",
+          "hash": "3978021811489360974"
+        },
+        {
+          "file": "packages/ui/src/pages/Login.tsx",
+          "hash": "1224099578165738140"
+        },
+        {
+          "file": "packages/ui/src/pages/Logs.tsx",
+          "hash": "18097075790528026001"
+        },
+        {
+          "file": "packages/ui/src/pages/Models.tsx",
+          "hash": "879453943531388685"
+        },
+        {
+          "file": "packages/ui/src/pages/Providers.tsx",
+          "hash": "14747535706114441174"
+        },
+        {
+          "file": "packages/ui/src/pages/Settings.tsx",
+          "hash": "16392965379335879645"
+        },
+        {
+          "file": "packages/ui/tailwind.config.js",
+          "hash": "12379835349112395810"
+        },
+        {
+          "file": "packages/ui/tsconfig.json",
+          "hash": "17251020567835433087"
+        },
+        {
+          "file": "packages/ui/tsconfig.tsbuildinfo",
+          "hash": "4049777519591792847"
+        },
+        {
+          "file": "packages/ui/vite.config.ts",
+          "hash": "928359884852872301"
+        }
+      ],
+      "@one-proxy/shared": [
+        {
+          "file": "packages/shared/drizzle.config.ts",
+          "hash": "8525864183892004887"
+        },
+        {
+          "file": "packages/shared/package.json",
+          "hash": "2375253108404580991",
+          "deps": [
+            "npm:@types/better-sqlite3",
+            "npm:@types/uuid",
+            "npm:drizzle-kit",
+            "npm:typescript",
+            "npm:better-sqlite3",
+            "npm:drizzle-orm",
+            "npm:uuid"
+          ]
+        },
+        {
+          "file": "packages/shared/project.json",
+          "hash": "7878915240319234189"
+        },
+        {
+          "file": "packages/shared/src/constants.ts",
+          "hash": "5389256906792944883"
+        },
+        {
+          "file": "packages/shared/src/crypto.ts",
+          "hash": "6600079702071813275"
+        },
+        {
+          "file": "packages/shared/src/db/index.ts",
+          "hash": "15310956091158488141"
+        },
+        {
+          "file": "packages/shared/src/db/schemas.ts",
+          "hash": "1923366773201006345"
+        },
+        {
+          "file": "packages/shared/src/index.ts",
+          "hash": "4249459278554548247"
+        },
+        {
+          "file": "packages/shared/src/types.ts",
+          "hash": "1176788987279669110"
+        },
+        {
+          "file": "packages/shared/tsconfig.json",
+          "hash": "18014632999146895067"
+        }
+      ],
+      "@one-proxy/proxy": [
+        {
+          "file": "packages/proxy/package.json",
+          "hash": "15828888587440919589",
+          "deps": [
+            "npm:@types/better-sqlite3",
+            "npm:@types/uuid",
+            "npm:tsx",
+            "npm:typescript",
+            "npm:vitest",
+            "@one-proxy/shared",
+            "npm:hono",
+            "npm:@hono/node-server",
+            "npm:drizzle-orm",
+            "npm:better-sqlite3",
+            "npm:uuid",
+            "npm:jose",
+            "npm:pino",
+            "npm:pino-pretty"
+          ]
+        },
+        {
+          "file": "packages/proxy/project.json",
+          "hash": "1483020426399602435"
+        },
+        {
+          "file": "packages/proxy/src/__tests__/anthropic-to-openai.test.ts",
+          "hash": "9792550250987799126"
+        },
+        {
+          "file": "packages/proxy/src/__tests__/crypto.test.ts",
+          "hash": "7196671375721612692"
+        },
+        {
+          "file": "packages/proxy/src/__tests__/openai-to-anthropic.test.ts",
+          "hash": "7751877689176800542"
+        },
+        {
+          "file": "packages/proxy/src/__tests__/stream-translators.test.ts",
+          "hash": "13674923688829375419"
+        },
+        {
+          "file": "packages/proxy/src/config.ts",
+          "hash": "12030786444260897265"
+        },
+        {
+          "file": "packages/proxy/src/db.ts",
+          "hash": "571524162795678508"
+        },
+        {
+          "file": "packages/proxy/src/forwarding/forward.ts",
+          "hash": "7740994557830715117"
+        },
+        {
+          "file": "packages/proxy/src/forwarding/stream-forward.ts",
+          "hash": "7313741114244964639"
+        },
+        {
+          "file": "packages/proxy/src/index.ts",
+          "hash": "2076442620960754368"
+        },
+        {
+          "file": "packages/proxy/src/logger.ts",
+          "hash": "1415248511325529459"
+        },
+        {
+          "file": "packages/proxy/src/middleware/admin-auth.ts",
+          "hash": "3690239966742026747"
+        },
+        {
+          "file": "packages/proxy/src/middleware/auth.ts",
+          "hash": "6627366975503347544"
+        },
+        {
+          "file": "packages/proxy/src/middleware/cors.ts",
+          "hash": "14852525444475749453"
+        },
+        {
+          "file": "packages/proxy/src/middleware/logging.ts",
+          "hash": "7098541681737022086"
+        },
+        {
+          "file": "packages/proxy/src/routes/admin/auth.ts",
+          "hash": "10837411447047312988"
+        },
+        {
+          "file": "packages/proxy/src/routes/admin/dashboard.ts",
+          "hash": "15287863685089424880"
+        },
+        {
+          "file": "packages/proxy/src/routes/admin/keys.ts",
+          "hash": "8528556171295296229"
+        },
+        {
+          "file": "packages/proxy/src/routes/admin/logs.ts",
+          "hash": "13091335724776889971"
+        },
+        {
+          "file": "packages/proxy/src/routes/admin/models.ts",
+          "hash": "11134267073665055071"
+        },
+        {
+          "file": "packages/proxy/src/routes/admin/providers.ts",
+          "hash": "6490097414813647168"
+        },
+        {
+          "file": "packages/proxy/src/routes/admin/settings.ts",
+          "hash": "16732960685850265754"
+        },
+        {
+          "file": "packages/proxy/src/routes/health.ts",
+          "hash": "4840379635452385425"
+        },
+        {
+          "file": "packages/proxy/src/routes/proxy.ts",
+          "hash": "1366257301118129508"
+        },
+        {
+          "file": "packages/proxy/src/services/key-pool.ts",
+          "hash": "17537453223507201790"
+        },
+        {
+          "file": "packages/proxy/src/services/model-resolver.ts",
+          "hash": "7748634371313480247"
+        },
+        {
+          "file": "packages/proxy/src/services/proxy-auth.ts",
+          "hash": "3178923841680037538"
+        },
+        {
+          "file": "packages/proxy/src/services/request-logger.ts",
+          "hash": "8240942224898775992"
+        },
+        {
+          "file": "packages/proxy/src/services/usage-tracker.ts",
+          "hash": "4543819176380712695"
+        },
+        {
+          "file": "packages/proxy/src/translation/anthropic-to-openai.ts",
+          "hash": "8363366116873417215"
+        },
+        {
+          "file": "packages/proxy/src/translation/openai-to-anthropic.ts",
+          "hash": "12064983441870483906"
+        },
+        {
+          "file": "packages/proxy/src/translation/stream-anthropic-to-openai.ts",
+          "hash": "15004995585927049352"
+        },
+        {
+          "file": "packages/proxy/src/translation/stream-openai-to-anthropic.ts",
+          "hash": "8033886723791421354"
+        },
+        {
+          "file": "packages/proxy/src/translation/types.ts",
+          "hash": "11514922251508531681"
+        },
+        {
+          "file": "packages/proxy/tsconfig.json",
+          "hash": "15361990157507552942"
+        },
+        {
+          "file": "packages/proxy/vitest.config.ts",
+          "hash": "370297391995449096"
+        }
+      ]
+    }
+  }
+}

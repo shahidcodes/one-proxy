@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  one-proxy:
+    build: .
+    ports:
+      - "15000:15000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - ENCRYPTION_KEY=${ENCRYPTION_KEY:-}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-}
+      - PROXY_PUBLIC_URL=${PROXY_PUBLIC_URL:-http://localhost:15000}
+      - TRANSLATION_FALLBACK=${TRANSLATION_FALLBACK:-drop}
+      - PORT=15000
+    restart: unless-stopped

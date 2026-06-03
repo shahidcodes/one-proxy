@@ -1,0 +1,20 @@
+{
+  "name": "one-proxy",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "nx run-many --target=dev --parallel",
+    "build": "nx run-many --target=build --parallel",
+    "test": "nx run-many --target=test --parallel",
+    "lint": "nx run-many --target=lint --parallel",
+    "typecheck": "nx run-many --target=typecheck --parallel",
+    "db:generate": "nx run @one-proxy/shared:db:generate",
+    "db:migrate": "nx run @one-proxy/shared:db:migrate"
+  },
+  "devDependencies": {
+    "nx": "^20.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}

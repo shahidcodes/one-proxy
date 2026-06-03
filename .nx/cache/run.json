@@ -1,0 +1,32 @@
+{
+  "run": {
+    "command": "nx run-many --target=lint --parallel",
+    "startTime": "2026-06-03T06:10:22.416Z",
+    "endTime": "2026-06-03T06:10:23.099Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@one-proxy/proxy:lint",
+      "target": "lint",
+      "projectName": "@one-proxy/proxy",
+      "hash": "3098333901054294777",
+      "startTime": "2026-06-03T06:10:22.458Z",
+      "endTime": "2026-06-03T06:10:23.097Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@one-proxy/ui:lint",
+      "target": "lint",
+      "projectName": "@one-proxy/ui",
+      "hash": "9409470618264996908",
+      "startTime": "2026-06-03T06:10:22.458Z",
+      "endTime": "2026-06-03T06:10:23.098Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}
