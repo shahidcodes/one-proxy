@@ -5,3 +5,6 @@ data/
 .env
 .env.local
 .DS_Store
+.nx/
+*.tsbuildinfo
+opencode.json
